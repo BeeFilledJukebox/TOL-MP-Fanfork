@@ -1,0 +1,17 @@
+political_decisions = {
+  set_infamy_0 = {
+    picture = "titanic"
+    potential = {
+      year = 1836
+      month = 1
+      NOT = {badboy = 0}
+      NOT = {has_country_flag = infamy_go_poof}
+    }
+    allow = {
+      ai = no
+    }
+    effect = {
+      badboy = -100  
+    }
+  }
+}
